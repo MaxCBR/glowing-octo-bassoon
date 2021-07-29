@@ -1,1 +1,33 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: "Acumin Pro Bold";
+  src: local("Acumin Pro"),
+    url(./assets/fonts/Acumin-BdPro.otf) format("opentype");
+}
+@font-face {
+  font-family: "Acumin Pro";
+  src: local("Acumin Pro"),
+    url(./assets/fonts/Acumin-RPro.otf) format("opentype");
+}
+* {
+  font-family: "Acumin Pro";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(253, 233, 189);
+}
+ul,
+ol {
+  list-style: none;
+}
+input,
+textarea {
+  outline: none;
+}
+header,
+footer,
+section {
+  width: 75%;
+  margin: 0 auto;
+}
